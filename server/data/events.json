@@ -1,0 +1,193 @@
+{
+  "upcoming": [
+  ],
+  "previous": [
+    {
+      "id": "2016-11-16",
+      "title": "Big & Bold",
+      "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "start": {
+        "date": "2016-11-16",
+        "time": "19:00",
+        "day": "Wednesday",
+        "month": "November"
+      },
+      "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/big-bold-gin-tasting-tickets-28960314079\">Eventbrite</a>.",
+      "description": "<p>For the last tasting of 2016 we are going Big! And Bold!</p><p>Eoin Bara, owner and distiller of Arderin Distillery in Tullamore, will present the brand new Mór Irish Gin.</p><p>From \"Mór\", which means \"Big\" in Ireland, we will hop across the Atlantic for a couple of gins that are \"Big\" in America.</p><p>We'll finish with a special edition of Bulldog Gin which takes an already assertive spirit at 40% and amps it up to 47%.</p>",
+      "samples": [
+        {
+          "title": "Mór Irish Gin",
+          "distillery": "Arderin Distillery, Tullamore, Co. Offaly",
+          "abv": "40%",
+          "url": "http://www.moririshgin.com/",
+          "description": "The botanicals include juniper, angelica, coriander, rosemary, cranberry, raspberry and blackberrry."
+        },
+        {
+          "title": "Big Gin",
+          "distillery": "Captive Spirits, Seattle, Washington, USA",
+          "abv": "47%",
+          "url": "http://www.captivespiritsdistilling.com/big-gin/",
+          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle."
+        },
+        {
+          "title": "Boubon Barrelled Big Gin",
+          "distillery": "Captive Spirits, Seattle, Washington, USA",
+          "abv": "47%",
+          "url": "http://www.captivespiritsdistilling.com/bourbon-barreled-big-gin/",
+          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle, then finished for 6 months in ex-Kenticky bourbon casks."
+        },
+        {
+          "title": "Bulldog Bold Gin",
+          "distillery": "G&J Distillers, Warrington, Cheshire, England",
+          "abv": "47%",
+          "url": "http://www.bulldoggin.com/",
+          "description": "botanicals: juniper, angelica, coriander, lemon peel, orris, almond, cassia, liquorice, lavender, white poppy, lotus leaves, dragon eye (longan)."
+        }
+      ]
+    },
+    {
+      "id": "2016-10-12",
+      "title": "An Evening with Blackwater Distillery",
+      "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "start": {
+        "date": "2016-10-12",
+        "time": "19:00",
+        "day": "Wednesday",
+        "month": "October"
+      },
+      "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/an-evening-with-blackwater-distillery-tickets-27736923886\">Eventbrite</a>.",
+      "description": "<p>Blackwater has been setting the pace among Ireland's new distilleries for quality, integrity and innovation. Since getting underway in early 2015, it has already released three gins, two vodkas, and a poitín distilled from the local stout. And there's more on the way.</p><p>Expect some amazing flavours and plain speaking on the spirits business from owner and distiller, Peter Mulryan, as we work our way through the Blackwater Gin range.</p>",
+      "samples": [
+        {
+          "title": "Blackwater No. 5",
+          "distillery": "Blackwater Distillery, Cappoquin, Waterford",
+          "abv": "41.5%",
+          "url": "http://blackwaterdistillery.ie/our-spirits/gin/",
+          "description": "A classic, London Dry-style gin, with a recipe based on the import catalogue of White's of Waterford in the 19th Century. It includes juniper, coriander, cinnamon, liquorice and nutmeg."
+        },
+        {
+          "title": "Blackwater Strawberry Gin",
+          "distillery": "Blackwater Distillery, Cappoquin, Waterford",
+          "abv": "40%",
+          "url": "http://blackwaterdistillery.ie/wexford-strawberry-gin/",
+          "description": "Wexford strawberries have been macerated in alcohol and distilled along with the rest of the botanicals. After distillation, blackcurrants and more strawberries are added to produce a wonderful nose and colour."
+        },
+        {
+          "title": "Blackwater Juniper Cask Gin",
+          "distillery": "Blackwater Distillery, Cappoquin, Waterford",
+          "abv": "46%",
+          "url": "http://blackwaterdistillery.ie/jenifer-juniper-la-la-la-la-la/",
+          "description": "A gin rested in casks that Blackwater had specially made from juniper wood."
+        },
+        {
+          "title": "Boyle's Gin",
+          "distillery": "Blackwater Distillery, Cappoquin, Waterford",
+          "url": "http://blackwaterdistillery.ie/",
+          "abv": "40%",
+          "description": "A preview of Blackwater's latest gin before it hits the shelves. Named for local boy and father of modern chemistry, Robert Boyle, this gin is softer, fruitier and sweeter than No.5. Botanicals include apple, rosehip, blackcurrant and pink peppercorns."
+        }
+      ]
+    },
+    {
+      "id": "2016-09-07",
+      "title": "Dutch Gin Tasting",
+      "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "start": {
+        "date": "2016-09-07",
+        "time": "19:00",
+        "day": "Wednesday",
+        "month": "September"
+      },
+      "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/dutch-gin-tasting-tickets-27245866119\">Eventbrite</a>.",
+      "description": "<p>We look back at the originators of gin, the Dutch, intrepid traders with the rest of the world who brought back exotic spices to Holland with which to flavour their spirits. We'll taste the precursor of gin, genever, still a popular drink in the Netherlands today. We'll also sample some Dutch takes on modern gin, accompanied by a new tonic to the Irish market, <a href=\"http://doubledutchdrinks.com/\">Double Dutch</a>.</p>",
+      "samples": [
+        {
+          "title": "Cooley Poitín",
+          "distillery": "Cooley Distillery, Louth",
+          "abv": "65%",
+          "url": "http://www.liquidirish.com/2011/11/new-cooley-poitin.html",
+          "description": "A spirit made from a mix of malted and unmalted grain, distilled in copper stills. Similar to the base spirit used to make genever."
+        },
+        {
+          "title": "Bols Genever",
+          "distillery": "Lucas Bols Distillery, Amsterdam",
+          "botanicals": "includes juniper, licorice, hops, angelica",
+          "price": "€30",
+          "abv": "42%",
+          "url": "https://bols.com/products/bolsgenever"
+        },
+        {
+          "title": "Bobby's Schiedam Dry Gin",
+          "distillery": "Herman Jansen Distillery, Schiedam, Netherlands",
+          "botanicals": "juniper, lemongrass, cloves, coriander seed, cubeb pepper, cinnamon, rose hips, fennel seed",
+          "price": "€45",
+          "abv": "42%",
+          "url": "http://bobbysdrygin.com/"
+        },
+        {
+          "title": "Zuidam Dutch Courage",
+          "distillery": "Zuidam Distillers, Baarle-Nassau, Netherlands",
+          "botanicals": "juniper berries and iris root from Italy, coriander from Morocco, angelica, sweet oranges and fresh whole lemons from Spain, liquorice root from India, cardamom and whole vanilla beans from Madagascar",
+          "price": "€37",
+          "abv": "44.5%",
+          "url": "http://gin.zuidam.eu/en/products/dutch-courage-dry-gin-en.htm"
+        },
+        {
+          "title": "Zuidam Dutch Courage Aged Gin",
+          "distillery": "Zuidam Distillers, Baarle-Nassau, Netherlands",
+          "botanicals": "juniper berries and iris root from Italy, coriander from Morocco, angelica, sweet oranges and fresh whole lemons from Spain, liquorice root from India, cardamom and whole vanilla beans from Madagascar.",
+          "price": "€46",
+          "abv": "44%",
+          "url": "http://gin.zuidam.eu/en/products/dutch-courage-aged-gin-88-en.htm"
+        }
+      ]
+    },
+    {
+      "id": "2016-08-10",
+      "title": "American Gin Tasting",
+      "location": "The Palace Bar, 21 Fleet Street, Dublin 2",
+      "start": {
+        "date": "2016-08-10",
+        "time": "19:00",
+        "day": "Wednesday",
+        "month": "August"
+      },
+      "tickets": "€20 in advance, on <a href=\"https://www.eventbrite.ie/e/american-gin-tasting-tickets-26744340041\">Eventbrite</a>.",
+      "description": "<p>At our inaugural tasting, we will discover what's been happening across the Atlantic, from robust classic gins to contemporary concoctions that challenge our notions of gin.</p><p>We'll also take a closer look at two botanicals: juniper and Indian sarsaparilla.</p>",
+      "samples": [
+        {
+          "title": "Death's Door Gin",
+          "distillery": "Death's Door Distillery, Middleton, Wisconsin, USA",
+          "botanicals": "juniper, coriander seed, fennel seed",
+          "price": "€64.99",
+          "abv": "47%",
+          "url": "https://www.deathsdoorspirits.com/spirits/gin"
+        },
+        {
+          "title": "Cold River Gin",
+          "distillery": "Maine Distilleries, Freeport (just outside Portland), Maine, USA",
+          "botanicals": "juniper, coriander seed, lemon & orange peel, cardamom, angelica root, orris root",
+          "price": "€57.99",
+          "abv": "47%",
+          "url": "http://www.coldrivervodka.com/gin/"
+        },
+        {
+          "title": "Aviation Gin",
+          "distillery": "House Spirits Distillery, Portland, Oregon, USA",
+          "botanicals": "juniper, coriander seed, cardamom, lavender, sarsaparilla, anise seed, bitter & sweet orange peel",
+          "price": "€53.99",
+          "abv": "42%",
+          "url": "http://aviationgin.com/"
+        },
+        {
+          "title": "FEW American Gin",
+          "distillery": "FEW Spirits, Evanston, Illinois, USA",
+          "botanicals": "11 botanicals, including juniper, citrus lemon & orange peel, Tahitian vanilla, cassia, grains of paradise, home-growm hops",
+          "price": "€64.99",
+          "abv": "40%",
+          "url": "http://www.fewspirits.com/spirits/american-gin/"
+        }
+      ]
+    }
+  ]
+}
