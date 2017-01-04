@@ -8,12 +8,17 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { EventsComponent } from './events/events.component';
 import { EventsService } from './events.service';
+import { AboutComponent } from './about/about.component';
 
 const ROUTES = [
   {
     path: '',
     redirectTo: 'events',
     pathMatch: 'full'
+  },
+  {
+    path: 'about',
+    component: AboutComponent
   },
   {
     path: 'events',
@@ -24,7 +29,8 @@ const ROUTES = [
 @NgModule({
   declarations: [
     AppComponent,
-    EventsComponent
+    EventsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
