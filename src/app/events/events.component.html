@@ -1,7 +1,56 @@
-<div class="container">
-  <div class="row" *ngFor="let event of events.previous">
-    <md-card>
-      <h4 class="card-title">{{ event.title }}</h4>
-    </md-card>
-  </div>
+<h1>Events</h1>
+<h2>Upcoming</h2>
+<div *ngFor="let year of years.upcoming">
+  <h3>{{year}}</h3>
+  <md-card *ngFor="let event of events.upcoming[year]">
+    <md-card-subtitle>{{ event.start.dayOfWeek }} {{ event.start.day }} {{ event.start.month }}</md-card-subtitle>
+    <md-card-title>{{ event.title }}</md-card-title>
+    <md-card-content>
+      <table>
+        <tr>
+          <td><i class="fa fa-lg fa-fw fa-map-marker"></i></td>
+          <td>{{event.location}}</td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-lg fa-fw fa-clock-o"></i></td>
+          <td>{{event.start.time}}</td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-lg fa-fw fa-ticket"></i></td>
+          <td><span [innerHTML]="event.tickets"></span></td>
+        </tr>
+      </table>
+    </md-card-content>
+    <md-card-actions>
+      <a md-button routerLink="/events">More Details...</a>
+    </md-card-actions>
+  </md-card>
+</div>
+
+<h2 style="margin-top:48px">Previous</h2>
+<div *ngFor="let year of years.previous">
+  <h3>{{year}}</h3>
+  <md-card *ngFor="let event of events.previous[year]">
+    <md-card-subtitle>{{ event.start.dayOfWeek }} {{ event.start.day }} {{ event.start.month }}</md-card-subtitle>
+    <md-card-title>{{ event.title }}</md-card-title>
+    <md-card-content>
+      <table>
+        <tr>
+          <td><i class="fa fa-lg fa-fw fa-map-marker"></i></td>
+          <td>{{event.location}}</td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-lg fa-fw fa-clock-o"></i></td>
+          <td>{{event.start.time}}</td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-lg fa-fw fa-ticket"></i></td>
+          <td><span [innerHTML]="event.tickets"></span></td>
+        </tr>
+      </table>
+    </md-card-content>
+    <md-card-actions>
+      <a md-button routerLink="/events">More Details...</a>
+    </md-card-actions>
+  </md-card>
 </div>

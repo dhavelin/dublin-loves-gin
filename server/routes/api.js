@@ -23,7 +23,10 @@ router.get('/events', (req, res) => {
     if (err) {
       res.status(500).send(err);
     } else {
-      res.status(200).json(events);
+      res.status(200).json({
+        today: new Date().toISOString(),
+        events: events.events
+      });
     }
   });
 

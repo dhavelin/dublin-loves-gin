@@ -1,0 +1,73 @@
+.event-when {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  &:first-child {
+    margin-right: 0.5em;
+  }
+  &:last-child {
+    margin-right: 1.0rem;
+  }
+  .to {
+    display: inline-flex;
+    margin: 0 2px;
+  }
+  .datestamp {
+    display: inline-flex;
+    order: 0;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+
+    .year-container {
+      position: relative;
+      display: inline-block;
+      order: 0;
+      flex: 0 1 auto;
+      background-color: steelblue;
+      color: #fff;
+      padding: 2px 4px 2px 2px;
+    }
+
+    .day-date-month {
+      background-color: white;
+      padding: 8px 6px 8px 8px;
+      order: 0;
+      flex: 0 1 auto;
+      padding: 2px 6px;
+      text-align: center;
+    }
+
+    .date {
+      display: inline-block;
+      font-size: 14px;
+      padding: 0 4px;
+    }
+
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  .event-when {
+    justify-content: flex-end;
+    .datestamp {
+      .year-container {
+        width: 1.1em;
+      }
+      .year {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+      }
+      .date {
+        font-size: 18px;
+        display: block;
+      }
+    }
+  }
+}

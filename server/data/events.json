@@ -1,7 +1,50 @@
 {
-  "upcoming": [
-  ],
-  "previous": [
+  "events": [
+    {
+      "id": "2017-02-16",
+      "title": "Big & Bold Feb",
+      "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "start": {
+        "date": "2017-02-16",
+        "time": "19:00",
+        "dayOfWeek": "Wednesday",
+        "day": "16",
+        "month": "November",
+        "year": "2017"
+      },
+      "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/big-bold-gin-tasting-tickets-28960314079\">Eventbrite</a>.",
+      "description": "<p>For the last tasting of 2016 we are going Big! And Bold!</p><p>Eoin Bara, owner and distiller of Arderin Distillery in Tullamore, will present the brand new Mór Irish Gin.</p><p>From \"Mór\", which means \"Big\" in Ireland, we will hop across the Atlantic for a couple of gins that are \"Big\" in America.</p><p>We'll finish with a special edition of Bulldog Gin which takes an already assertive spirit at 40% and amps it up to 47%.</p>",
+      "samples": [
+        {
+          "title": "Mór Irish Gin",
+          "distillery": "Arderin Distillery, Tullamore, Co. Offaly",
+          "abv": "40%",
+          "url": "http://www.moririshgin.com/",
+          "description": "The botanicals include juniper, angelica, coriander, rosemary, cranberry, raspberry and blackberrry."
+        },
+        {
+          "title": "Big Gin",
+          "distillery": "Captive Spirits, Seattle, Washington, USA",
+          "abv": "47%",
+          "url": "http://www.captivespiritsdistilling.com/big-gin/",
+          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle."
+        },
+        {
+          "title": "Boubon Barrelled Big Gin",
+          "distillery": "Captive Spirits, Seattle, Washington, USA",
+          "abv": "47%",
+          "url": "http://www.captivespiritsdistilling.com/bourbon-barreled-big-gin/",
+          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle, then finished for 6 months in ex-Kenticky bourbon casks."
+        },
+        {
+          "title": "Bulldog Bold Gin",
+          "distillery": "G&J Distillers, Warrington, Cheshire, England",
+          "abv": "47%",
+          "url": "http://www.bulldoggin.com/",
+          "description": "botanicals: juniper, angelica, coriander, lemon peel, orris, almond, cassia, liquorice, lavender, white poppy, lotus leaves, dragon eye (longan)."
+        }
+      ]
+    },
     {
       "id": "2016-11-16",
       "title": "Big & Bold",
@@ -9,8 +52,10 @@
       "start": {
         "date": "2016-11-16",
         "time": "19:00",
-        "day": "Wednesday",
-        "month": "November"
+        "dayOfWeek": "Wednesday",
+        "day": "16",
+        "month": "November",
+        "year": "2016"
       },
       "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/big-bold-gin-tasting-tickets-28960314079\">Eventbrite</a>.",
       "description": "<p>For the last tasting of 2016 we are going Big! And Bold!</p><p>Eoin Bara, owner and distiller of Arderin Distillery in Tullamore, will present the brand new Mór Irish Gin.</p><p>From \"Mór\", which means \"Big\" in Ireland, we will hop across the Atlantic for a couple of gins that are \"Big\" in America.</p><p>We'll finish with a special edition of Bulldog Gin which takes an already assertive spirit at 40% and amps it up to 47%.</p>",
@@ -52,8 +97,10 @@
       "start": {
         "date": "2016-10-12",
         "time": "19:00",
-        "day": "Wednesday",
-        "month": "October"
+        "dayOfWeek": "Wednesday",
+        "day": "12",
+        "month": "October",
+        "year": "2016"
       },
       "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/an-evening-with-blackwater-distillery-tickets-27736923886\">Eventbrite</a>.",
       "description": "<p>Blackwater has been setting the pace among Ireland's new distilleries for quality, integrity and innovation. Since getting underway in early 2015, it has already released three gins, two vodkas, and a poitín distilled from the local stout. And there's more on the way.</p><p>Expect some amazing flavours and plain speaking on the spirits business from owner and distiller, Peter Mulryan, as we work our way through the Blackwater Gin range.</p>",
@@ -95,8 +142,10 @@
       "start": {
         "date": "2016-09-07",
         "time": "19:00",
-        "day": "Wednesday",
-        "month": "September"
+        "dayOfWeek": "Wednesday",
+        "day": "07",
+        "month": "September",
+        "year": "2016"
       },
       "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/dutch-gin-tasting-tickets-27245866119\">Eventbrite</a>.",
       "description": "<p>We look back at the originators of gin, the Dutch, intrepid traders with the rest of the world who brought back exotic spices to Holland with which to flavour their spirits. We'll taste the precursor of gin, genever, still a popular drink in the Netherlands today. We'll also sample some Dutch takes on modern gin, accompanied by a new tonic to the Irish market, <a href=\"http://doubledutchdrinks.com/\">Double Dutch</a>.</p>",
@@ -149,8 +198,10 @@
       "start": {
         "date": "2016-08-10",
         "time": "19:00",
-        "day": "Wednesday",
-        "month": "August"
+        "dayOfWeek": "Wednesday",
+        "day": "10",
+        "month": "August",
+        "year": "2016"
       },
       "tickets": "€20 in advance, on <a href=\"https://www.eventbrite.ie/e/american-gin-tasting-tickets-26744340041\">Eventbrite</a>.",
       "description": "<p>At our inaugural tasting, we will discover what's been happening across the Atlantic, from robust classic gins to contemporary concoctions that challenge our notions of gin.</p><p>We'll also take a closer look at two botanicals: juniper and Indian sarsaparilla.</p>",

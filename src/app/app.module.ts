@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { EventsComponent } from './events/events.component';
 import { EventsService } from './events.service';
 import { AboutComponent } from './about/about.component';
+import { DatestampComponent } from './datestamp/datestamp.component';
 
 const ROUTES = [
   {
@@ -30,14 +32,16 @@ const ROUTES = [
   declarations: [
     AppComponent,
     EventsComponent,
-    AboutComponent
+    AboutComponent,
+    DatestampComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES),
-    MaterialModule.forRoot()
+    MaterialModule.forRoot(),
+    FlexLayoutModule.forRoot()
   ],
   providers: [EventsService],
   bootstrap: [AppComponent]

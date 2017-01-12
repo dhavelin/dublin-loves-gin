@@ -1,0 +1,28 @@
+h2 {
+  color: #777;
+	border-bottom: 1px solid #ddd;
+  font-weight: normal;
+	margin: 0 auto 24px auto;
+  max-width: 700px;
+  text-align: left;
+  padding-bottom: 6px;
+}
+h3 {
+  max-width: 600px;
+  margin: 0 auto 24px auto;
+  text-align: center;
+}
+md-card {
+  max-width: 600px;
+  margin: 0 auto 24px auto
+}
+md-card-content {
+  font-size: 16px;
+}
+md-card-content i {
+  color: cadetblue;
+}
+md-card-content td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
