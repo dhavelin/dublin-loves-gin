@@ -1,49 +1,19 @@
 {
   "events": [
     {
-      "id": "2017-02-16",
-      "title": "Big & Bold Feb",
+      "id": "2017-01-25",
+      "title": "Glendalough Gin",
       "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
       "start": {
-        "date": "2017-02-16",
+        "date": "2017-01-25",
         "time": "19:00",
         "dayOfWeek": "Wednesday",
-        "day": "16",
-        "month": "November",
+        "day": "25",
+        "month": "January",
         "year": "2017"
       },
-      "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/big-bold-gin-tasting-tickets-28960314079\">Eventbrite</a>.",
-      "description": "<p>For the last tasting of 2016 we are going Big! And Bold!</p><p>Eoin Bara, owner and distiller of Arderin Distillery in Tullamore, will present the brand new Mór Irish Gin.</p><p>From \"Mór\", which means \"Big\" in Ireland, we will hop across the Atlantic for a couple of gins that are \"Big\" in America.</p><p>We'll finish with a special edition of Bulldog Gin which takes an already assertive spirit at 40% and amps it up to 47%.</p>",
-      "samples": [
-        {
-          "title": "Mór Irish Gin",
-          "distillery": "Arderin Distillery, Tullamore, Co. Offaly",
-          "abv": "40%",
-          "url": "http://www.moririshgin.com/",
-          "description": "The botanicals include juniper, angelica, coriander, rosemary, cranberry, raspberry and blackberrry."
-        },
-        {
-          "title": "Big Gin",
-          "distillery": "Captive Spirits, Seattle, Washington, USA",
-          "abv": "47%",
-          "url": "http://www.captivespiritsdistilling.com/big-gin/",
-          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle."
-        },
-        {
-          "title": "Boubon Barrelled Big Gin",
-          "distillery": "Captive Spirits, Seattle, Washington, USA",
-          "abv": "47%",
-          "url": "http://www.captivespiritsdistilling.com/bourbon-barreled-big-gin/",
-          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle, then finished for 6 months in ex-Kenticky bourbon casks."
-        },
-        {
-          "title": "Bulldog Bold Gin",
-          "distillery": "G&J Distillers, Warrington, Cheshire, England",
-          "abv": "47%",
-          "url": "http://www.bulldoggin.com/",
-          "description": "botanicals: juniper, angelica, coriander, lemon peel, orris, almond, cassia, liquorice, lavender, white poppy, lotus leaves, dragon eye (longan)."
-        }
-      ]
+      "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/glendalough-gin-tasting-tickets-31055393518\">Eventbrite</a>.",
+      "description": "Nobody captures the Irish countryside in a bottle better than Glendalough Distillery. Every season, working with local forager <a href=\"http://www.wicklowwildfoods.com/\">Geraldine Kavanagh</a>, they spend a week in the wilds of the Wicklow countryside foraging for the freshest and most interesting local botanicals, berries and fruit which they distil into four unique and delicious seasonal gins.</p><p>Come taste the results, meet Geraldine and distiller Ciarán \"Rowdy\" Rooney, and discover that gin truly is a Winter drink. And a Spring drink, and a Summer drink, and an Autumn drink!"
     },
     {
       "id": "2016-11-16",
