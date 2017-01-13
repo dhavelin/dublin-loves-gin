@@ -4,10 +4,10 @@ import * as _ from 'lodash';
 
 @Component({
   selector: 'dh-events',
-  templateUrl: './events.component.html',
-  styleUrls: ['./events.component.css']
+  templateUrl: './eventList.component.html',
+  styleUrls: ['./eventList.component.css']
 })
-export class EventsComponent implements OnInit {
+export class EventListComponent implements OnInit {
 
   years: any = {
     previous: [],

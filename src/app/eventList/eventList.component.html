@@ -20,10 +20,10 @@
           <td><span [innerHTML]="event.tickets"></span></td>
         </tr>
       </table>
+      <div style="text-align:right;font-size:14px">
+        <a [routerLink]="['/events', event.id]">More Details <i class="fa fa-arrow-right"></i></a>
+      </div>
     </md-card-content>
-    <md-card-actions>
-      <a md-button routerLink="/events">More Details...</a>
-    </md-card-actions>
   </md-card>
 </div>
 
@@ -48,9 +48,9 @@
           <td><span [innerHTML]="event.tickets"></span></td>
         </tr>
       </table>
+      <div style="text-align:right;font-size:14px">
+        <a [routerLink]="['/events', event.id]">More Details <i class="fa fa-arrow-right"></i></a>
+      </div>
     </md-card-content>
-    <md-card-actions>
-      <a md-button routerLink="/events">More Details...</a>
-    </md-card-actions>
   </md-card>
 </div>

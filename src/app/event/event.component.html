@@ -1,0 +1,48 @@
+<h1>Event</h1>
+<md-card *ngIf="event">
+  <md-card-subtitle>
+    <div class="flex-container"
+         fxLayout="row"
+         fxLayout.xs="column"
+         fxLayoutAlign="space-between"
+         fxLayoutAlign.xs="start">
+      <div class="flex-item" fxFlexOrder="1" fxFlexOrder.xs="2">{{ event.start.dayOfWeek }} {{ event.start.day }} {{ event.start.month }}</div>
+      <div class="flex-item" style="text-align:right;margin-bottom:8px" fxFlexOrder="2" fxFlexOrder.xs="1"><a [routerLink]="['/events']"><i class="fa fa-arrow-left"></i> Back to Event List</a></div>
+    </div>
+  </md-card-subtitle>
+  <md-card-title>{{ event.title }}</md-card-title>
+  <md-card-content>
+    <table>
+      <tr>
+        <td><i class="fa fa-lg fa-fw fa-map-marker"></i></td>
+        <td>{{event.location}}</td>
+      </tr>
+      <tr>
+        <td><i class="fa fa-lg fa-fw fa-clock-o"></i></td>
+        <td>{{event.start.time}}</td>
+      </tr>
+      <tr>
+        <td><i class="fa fa-lg fa-fw fa-ticket"></i></td>
+        <td><span [innerHTML]="event.tickets"></span></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div [innerHTML]="event.description"></div>
+          <p>
+            <strong>Gins</strong>
+          </p>
+          <ol>
+            <li *ngFor="let sample of event.samples">
+              <p>
+                <a [href]="sample.url">{{sample.title}}</a><span *ngIf="sample.abv">, {{sample.abv}}</span>
+                <span *ngIf="sample.distillery"><br />{{sample.distillery}}</span>
+                <br *ngIf="sample.description" />
+                <span *ngIf="sample.description" [innerHtml]="sample.description"></span>
+              </p>
+            </li>
+          </ol>
+        </td>
+      </tr>
+    </table>
+  </md-card-content>
+</md-card>

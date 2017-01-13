@@ -1,9 +1,0 @@
-@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
-body {
-  margin: 0;
-  font-family: Roboto,"Helvetica Neue",sans-serif;
-}
-h1, h2 {
-  text-align: center;
-  color: #444;
-}

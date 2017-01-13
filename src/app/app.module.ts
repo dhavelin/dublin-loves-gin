@@ -7,10 +7,10 @@ import { MaterialModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
-import { EventsComponent } from './events/events.component';
+import { EventListComponent } from './eventList/eventList.component';
 import { EventsService } from './events.service';
 import { AboutComponent } from './about/about.component';
-import { DatestampComponent } from './datestamp/datestamp.component';
+import { EventComponent } from './event/event.component';
 
 const ROUTES = [
   {
@@ -23,17 +23,21 @@ const ROUTES = [
     component: AboutComponent
   },
   {
+    path: 'events/:eventId',
+    component: EventComponent
+  },
+  {
     path: 'events',
-    component: EventsComponent
+    component: EventListComponent
   }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventsComponent,
+    EventListComponent,
     AboutComponent,
-    DatestampComponent
+    EventComponent
   ],
   imports: [
     BrowserModule,

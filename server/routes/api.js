@@ -1,7 +1,22 @@
+'use strict';
+
 const express = require('express');
 const jsonfile = require('jsonfile');
 const path = require('path');
+const _ = require('lodash');
 const router = express.Router();
+
+let data;
+
+let file = path.join(__dirname, '../data', 'events.json');
+
+jsonfile.readFile(file, function(err, events) {
+  if (err) {
+    console.log(err);
+  } else {
+    data = events.events;
+  }
+});
 
 // declare axios for making http requests
 // const axios = require('axios');
@@ -14,8 +29,12 @@ router.get('/', (req, res) => {
 
 // Get all posts
 router.get('/events', (req, res) => {
-  // Get posts from the mock api
+  res.status(200).json({
+    today: new Date().toISOString(),
+    events: data
+  });
 
+  /*
   var file = path.join(__dirname, '../data', 'events.json');
   console.log('path: ' + file);
 
@@ -29,6 +48,7 @@ router.get('/events', (req, res) => {
       });
     }
   });
+  */
 
   /*
   axios.get(`${API}/posts`)
@@ -39,6 +59,20 @@ router.get('/events', (req, res) => {
       res.status(500).send(error)
     });
   */
+});
+
+router.get('/events/:eventId', (req, res) => {
+
+  console.log('/events/:eventId');
+
+  let event = _.find(data, {'id': req.params.eventId});
+
+  if (event) {
+    res.status(200).json(event);
+  } else {
+    res.status(404).send();
+  }
+
 });
 
 module.exports = router;
