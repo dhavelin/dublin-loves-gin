@@ -28,10 +28,10 @@
       <tr>
         <td colspan="2">
           <div [innerHTML]="event.description"></div>
-          <p>
+          <p *ngIf="event.samples">
             <strong>Gins</strong>
           </p>
-          <ol>
+          <ol *ngIf="event.samples">
             <li *ngFor="let sample of event.samples">
               <p>
                 <a [href]="sample.url">{{sample.title}}</a><span *ngIf="sample.abv">, {{sample.abv}}</span>
