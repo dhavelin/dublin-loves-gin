@@ -1,0 +1,14 @@
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+}
+md-card {
+  max-width: 600px;
+  margin: 0 auto 24px auto
+}
+p {
+  color: #fff;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

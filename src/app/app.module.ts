@@ -11,6 +11,7 @@ import { EventListComponent } from './eventList/eventList.component';
 import { EventsService } from './events.service';
 import { AboutComponent } from './about/about.component';
 import { EventComponent } from './event/event.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const ROUTES = [
   {
@@ -29,6 +30,10 @@ const ROUTES = [
   {
     path: 'events',
     component: EventListComponent
+  },
+  {
+    path: 'newsletter',
+    component: NewsletterComponent
   }
 ];
 
@@ -37,7 +42,8 @@ const ROUTES = [
     AppComponent,
     EventListComponent,
     AboutComponent,
-    EventComponent
+    EventComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
