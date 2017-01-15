@@ -25,6 +25,11 @@
         <td><i class="fa fa-lg fa-fw fa-ticket"></i></td>
         <td><span [innerHTML]="event.tickets"></span></td>
       </tr>
+    </table>
+  </md-card-content>
+  <img *ngIf="event.image" md-card-image src="/assets/images/{{event.image}}" alt="">
+  <md-card-content>
+    <table>
       <tr>
         <td colspan="2">
           <div [innerHTML]="event.description"></div>

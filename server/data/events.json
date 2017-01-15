@@ -4,6 +4,7 @@
       "id": "2017-01-25",
       "title": "Glendalough Gin",
       "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "image": "glendalough.jpg",
       "start": {
         "date": "2017-01-25",
         "time": "19:00",
@@ -19,6 +20,7 @@
       "id": "2016-11-16",
       "title": "Big & Bold",
       "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "image": "mor.jpg",
       "start": {
         "date": "2016-11-16",
         "time": "19:00",
@@ -64,6 +66,7 @@
       "id": "2016-10-12",
       "title": "An Evening with Blackwater Distillery",
       "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "image": "blackwater.jpg",
       "start": {
         "date": "2016-10-12",
         "time": "19:00",
@@ -109,6 +112,7 @@
       "id": "2016-09-07",
       "title": "Dutch Gin Tasting",
       "location": "57 The Headline, 57 Clanbrassil Street Lower, Dublin 8",
+      "image": "bols.jpg",
       "start": {
         "date": "2016-09-07",
         "time": "19:00",
@@ -165,6 +169,7 @@
       "id": "2016-08-10",
       "title": "American Gin Tasting",
       "location": "The Palace Bar, 21 Fleet Street, Dublin 2",
+      "image": "aviation.jpg",
       "start": {
         "date": "2016-08-10",
         "time": "19:00",

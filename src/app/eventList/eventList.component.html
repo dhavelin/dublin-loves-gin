@@ -24,6 +24,7 @@
         <a [routerLink]="['/events', event.id]">More Details <i class="fa fa-arrow-right"></i></a>
       </div>
     </md-card-content>
+    <img *ngIf="event.image" md-card-image src="/assets/images/{{event.image}}" alt="">
   </md-card>
 </div>
 
@@ -52,5 +53,6 @@
         <a [routerLink]="['/events', event.id]">More Details <i class="fa fa-arrow-right"></i></a>
       </div>
     </md-card-content>
+    <img *ngIf="event.image" md-card-image src="/assets/images/{{event.image}}" alt="">
   </md-card>
 </div>
