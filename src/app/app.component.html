@@ -3,7 +3,7 @@
     <md-toolbar color="primary">
       <span style="flex-grow:1"></span>
       <button md-mini-fab class="md-icon-button" (click)="sidenav.toggle()">
-        <md-icon fontIcon="fa-arrow-left"></md-icon>
+        <md-icon class="fa-lg" fontIcon="fa-arrow-left"></md-icon>
       </button>
     </md-toolbar>
     <a md-button routerLink="/about" (click)="sidenav.close()">ABOUT</a><br />
@@ -13,9 +13,11 @@
 
   <md-toolbar color="primary">
     <button md-mini-fab class="md-icon-button" (click)="sidenav.toggle()">
-      <md-icon fontIcon="fa-bars"></md-icon>
+      <md-icon class="fa-lg" fontIcon="fa-bars"></md-icon>
     </button>
     <span style="margin-left:24px">Dublin&nbsp;<i class="fa fa-heart" style="color:#f5a8a8"></i>&nbsp;Gin</span>
+    <span style="flex-grow:1"></span>
+    <a md-button href="https://twitter.com/dublinlovesgin" style="min-width:0;padding:0 4px"><md-icon class="fa-lg" style="height:auto" fontIcon="fa-twitter"></md-icon></a>
   </md-toolbar>
 
   <div class="app-content">
