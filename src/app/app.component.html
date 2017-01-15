@@ -1,10 +1,27 @@
-<md-toolbar color="primary">
-  <span style="margin-right:24px">Dublin&nbsp;<i class="fa fa-heart" style="color:#f5a8a8"></i>&nbsp;Gin</span>
-  <a md-button routerLink="/about">ABOUT</a>
-  <a md-button routerLink="/events">EVENTS</a>
-  <a md-button routerLink="/newsletter">NEWSLETTER</a>
-</md-toolbar>
+<md-sidenav-layout fullscreen>
+  <md-sidenav #sidenav mode="over" class="app-sidenav">
+    <md-toolbar color="primary">
+      <span style="flex-grow:1"></span>
+      <button md-mini-fab class="md-icon-button" (click)="sidenav.toggle()">
+        <md-icon fontIcon="fa-arrow-left"></md-icon>
+      </button>
+    </md-toolbar>
+    <a md-button routerLink="/about" (click)="sidenav.close()">ABOUT</a><br />
+    <a md-button routerLink="/events" (click)="sidenav.close()">EVENTS</a><br />
+    <a md-button routerLink="/newsletter" (click)="sidenav.close()">NEWSLETTER</a>
+  </md-sidenav>
 
-<div class="app-content">
-  <router-outlet></router-outlet>
-</div>
+  <md-toolbar color="primary">
+    <button md-mini-fab class="md-icon-button" (click)="sidenav.toggle()">
+      <md-icon fontIcon="fa-bars"></md-icon>
+    </button>
+    <span style="margin-left:24px">Dublin&nbsp;<i class="fa fa-heart" style="color:#f5a8a8"></i>&nbsp;Gin</span>
+  </md-toolbar>
+
+  <div class="app-content">
+    <router-outlet></router-outlet>
+  </div>
+
+</md-sidenav-layout>
+
+

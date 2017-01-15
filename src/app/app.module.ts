@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-import { MaterialModule } from '@angular/material';
+import { MaterialModule, MdIconModule, MdIconRegistry } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
@@ -56,4 +56,8 @@ const ROUTES = [
   providers: [EventsService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+   constructor(mdIconRegistry: MdIconRegistry) {
+    mdIconRegistry.setDefaultFontSetClass('fa');
+  }
+}

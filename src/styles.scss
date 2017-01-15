@@ -9,7 +9,7 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue.
 $candy-app-primary: md-palette($md-pink, 600, 500, 900);
-$candy-app-accent:  md-palette($md-blue, A200, A100, A400);
+$candy-app-accent:  md-palette($md-blue-grey, 800, 900, 500);
 
 // The warn palette is optional (defaults to red).
 $candy-app-warn:    md-palette($md-red);
@@ -22,9 +22,16 @@ $candy-app-theme: md-light-theme($candy-app-primary, $candy-app-accent, $candy-a
 // that you are using.
 @include angular-material-theme($candy-app-theme);
 
+html {
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: Roboto,"Helvetica Neue",sans-serif;
+  background-color: #2f4444;
+  min-height: 100%;
+}
+.md-sidenav-container {
   background-color: #2f4444;
 }
 h1, h2 {
@@ -39,6 +46,12 @@ h1, h2 {
   transition: all 0.5s ease;
   &:hover {
     color: lighten(#ec3c3c, 15%)
+  }
+}
+.app-sidenav {
+  a {
+    width: 100%;
+    text-align: left;
   }
 }
 
