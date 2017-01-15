@@ -63,8 +63,6 @@ router.get('/events', (req, res) => {
 
 router.get('/events/:eventId', (req, res) => {
 
-  console.log('/events/:eventId');
-
   let event = _.find(data, {'id': req.params.eventId});
 
   if (event) {
