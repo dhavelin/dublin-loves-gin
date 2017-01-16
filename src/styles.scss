@@ -41,11 +41,17 @@ h1, h2 {
 }
 
 .app-content a {
-  color: #ec3c3c;
+  color: #d81b60;
   text-decoration: none;
   transition: all 0.5s ease;
   &:hover {
-    color: lighten(#ec3c3c, 15%)
+    color: lighten(#d81b60, 15%)
+  }
+}
+.app-content a.light {
+  color: #ecd13b;
+  &:hover {
+    color: lighten(#ecd13b, 15%)
   }
 }
 .app-sidenav {

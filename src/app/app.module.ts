@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { EventListComponent } from './eventList/eventList.component';
 import { EventsService } from './events.service';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { EventComponent } from './event/event.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 
@@ -34,6 +35,10 @@ const ROUTES = [
   {
     path: 'newsletter',
     component: NewsletterComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
   }
 ];
 
@@ -42,6 +47,7 @@ const ROUTES = [
     AppComponent,
     EventListComponent,
     AboutComponent,
+    ContactComponent,
     EventComponent,
     NewsletterComponent
   ],
