@@ -6,6 +6,7 @@ export class Event {
   id: string;
   title: string;
   location: string;
+  image: string;
   start: {
     date: string,
     time: string;
