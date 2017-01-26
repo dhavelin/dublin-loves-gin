@@ -30,7 +30,7 @@ router.get('/', (req, res) => {
 // Get all posts
 router.get('/events', (req, res) => {
   res.status(200).json({
-    today: new Date().toISOString(),
+    today: (new Date().toISOString()).substr(0,10),
     events: data
   });
 
