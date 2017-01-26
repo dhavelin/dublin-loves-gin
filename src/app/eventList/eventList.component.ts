@@ -34,7 +34,7 @@ export class EventListComponent implements OnInit {
       this.events.upcoming = _.groupBy(_.filter(events.events, (event: any) => {
         return event.start.date >= today;
       }), 'start.year');
-      this.years.previous = _.keys(this.events.previous);
+      this.years.previous = _.orderBy(_.keys(this.events.previous), [], 'desc');
       this.years.upcoming = _.keys(this.events.upcoming);
 
       this.metaService.removeTag('name="og:title"');
