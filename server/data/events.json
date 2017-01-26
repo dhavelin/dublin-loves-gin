@@ -14,7 +14,65 @@
         "year": "2017"
       },
       "tickets": "€20 in advance, from The Headline Bar, or on <a href=\"https://www.eventbrite.ie/e/glendalough-gin-tasting-tickets-31055393518\">Eventbrite</a>.",
-      "description": "Nobody captures the Irish countryside in a bottle better than Glendalough Distillery. Every season, working with local forager <a href=\"http://www.wicklowwildfoods.com/\">Geraldine Kavanagh</a>, they spend a week in the wilds of the Wicklow countryside foraging for the freshest and most interesting local botanicals, berries and fruit which they distil into four unique and delicious seasonal gins.</p><p>Come taste the results, meet Geraldine and distiller Ciarán \"Rowdy\" Rooney, and discover that gin truly is a Winter drink. And a Spring drink, and a Summer drink, and an Autumn drink!"
+      "description": "<p>Nobody captures the Irish countryside in a bottle better than Glendalough Distillery. Every season, working with local forager <a href=\"http://www.wicklowwildfoods.com/\">Geraldine Kavanagh</a>, they spend a week in the wilds of the Wicklow countryside foraging for the freshest and most interesting local botanicals, berries and fruit which they distil into four unique and delicious seasonal gins.</p><p>Come taste the results, meet Geraldine and distiller Ciarán \"Rowdy\" Rooney, and discover that gin truly is a Winter drink. And a Spring drink, and a Summer drink, and an Autumn drink!</p>",
+      "samples": [
+        {
+          "title": "Glendalough Wild Spring Botanical Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>The nose is a floral perfume of gorse flower, with grassy notes of sweet woodruff and dandelions with a touch of pine and birch sap. The taste is big with a full mouth feel. Faint coconut notes from the gorse flower and a little citrus from wood sorrel and sweet, fresh pine. The finish is warming, citrussy and long. A fresh youthful gin.</p>",
+          "abv": "41%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Wild Summer Botanical Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>The nose is that of a meadow in bloom. Elderflower and primrose under pin fresh citrus and ripe green apples. The taste is robust and powerful with a warming, growing sweetness – honey dew melon and strawberry, earthy mid notes followed by spice with zesty citrus keeping it fresh throughout. The finish is long and slightly spicy. A rare summer's day bottled.</p>",
+          "abv": "42%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Wild Autumn Botanical Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>The nose is earthy but floral with underlying heather and blackberries. The taste has incredible depth of flavour, smooth and rounded with a touch of sweetness to the fore. Followed by hints of clover, fraughan berries and damsons. The finish lingers, long and smooth with citrus and classic notes of juniper. This one bursts with nature's ripe bounty from the valleys surrounding the distillery.</p>",
+          "abv": "41%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Wild Winter Botanical Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>The nose is distinctive, bright and fresh with winter woods and orange peel. The taste is evocative, rich, and smooth with pine and fir giving way to earthy mid notes and warm spices. Winter sweetness, cinnamon, elderberry and fennel with just a hint of cloves. The finish stays with spices giving way to a faint wild mint freshness. This gin is an ode to the raw beauty of the Wicklow mountains.</p>",
+          "abv": "42%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Wild Botanical Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>Botanicals: juniper, coriander, angelica root, orris root, liquorice root, liquorice bark, fresh organic lemons, elderflower, red clover flower, yarrow, ox eye daisy, wild raspberry, blackberry leaves, wild rose, watermint, sweet woodruff, wild angelica, lemon balm, sweet cicely, lady's bedstraw, bell heather.</p><p>The first gin to represent an entire year in beautiful Glendalough, on the nose this gin has fresh spring notes of juniper, citrus and pine. On the palate, it starts cool and mellow, then rushes to summer flowers in full bloom. Hints of autumn fruits give way to warm winter spices and a long, sylvan finish.</p>",
+          "abv": "41%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Sloe Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>Sloes, the dark tannic fruit of the native blackthorn, are the last of the wild harvest each year. Once picked, each is pierced with a thorn, added to our gin and sweetened. Over time, the gin turns a deep ruby red. Tasting at once fruity and tannic, it’s best sipped and savoured in cosy surroundings on a Winter’s evening.</p><p>This is great as an aperitif or after dinner with dessert or cheeses. Many sloe gins will have a lower ABV. Such is the quality and taste of Glendalough Sloe Gin it may still be sipped neat or on ice at 43%. But don’t let us stop you putting it in tonic or mixing it up.</p>",
+          "abv": "43%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Beech Leaf Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>In early Summer we pick the soft, downy leaves from the mountain beech around our distillery. Added to our botanical gin, it results in a surprising, honey coloured gin. Complex and herbaceous with hints of fresh apple and nutty tones on both the nose and palate. We like it neat or in cocktails.</p>",
+          "abv": "43%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        },
+        {
+          "title": "Glendalough Dillisk Gin",
+          "distillery": "Glendalough Distillery, Co. Wicklow",
+          "description": "<p>Some people like their gin a little different. This is a complete sea change. Sustainably foraged at low tide, fresh dillisk seaweed goes straight into our copper pot still with seven carefully selected botanicals. What results is a beautifully balanced gin that tastes of the sea with delicate floral notes. As you’d imagine, this is great with sea food, or just sipped with a far away look.<p>",
+          "abv": "43%",
+          "url": "http://www.glendaloughdistillery.com/our-gin"
+        }
+      ]
     },
     {
       "id": "2016-11-16",
@@ -37,28 +95,28 @@
           "distillery": "Arderin Distillery, Tullamore, Co. Offaly",
           "abv": "40%",
           "url": "http://www.moririshgin.com/",
-          "description": "The botanicals include juniper, angelica, coriander, rosemary, cranberry, raspberry and blackberrry."
+          "description": "<p>The botanicals include juniper, angelica, coriander, rosemary, cranberry, raspberry and blackberrry.</p>"
         },
         {
           "title": "Big Gin",
           "distillery": "Captive Spirits, Seattle, Washington, USA",
           "abv": "47%",
           "url": "http://www.captivespiritsdistilling.com/big-gin/",
-          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle."
+          "description": "<p>Botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle.</p>"
         },
         {
           "title": "Boubon Barrelled Big Gin",
           "distillery": "Captive Spirits, Seattle, Washington, USA",
           "abv": "47%",
           "url": "http://www.captivespiritsdistilling.com/bourbon-barreled-big-gin/",
-          "description": "botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle, then finished for 6 months in ex-Kenticky bourbon casks."
+          "description": "<p>Botanicals: juniper, coriander, biter orange peel, grains of paradise, angelica, cassia, orris, cardamom and Tasmanian pepperberry. Batch distilled in a 100-gallon Vendome pot still by third-generation distiller, Ben Capdevielle, then finished for 6 months in ex-Kenticky bourbon casks.</p>"
         },
         {
           "title": "Bulldog Bold Gin",
           "distillery": "G&J Distillers, Warrington, Cheshire, England",
           "abv": "47%",
           "url": "http://www.bulldoggin.com/",
-          "description": "botanicals: juniper, angelica, coriander, lemon peel, orris, almond, cassia, liquorice, lavender, white poppy, lotus leaves, dragon eye (longan)."
+          "description": "<p>Botanicals: juniper, angelica, coriander, lemon peel, orris, almond, cassia, liquorice, lavender, white poppy, lotus leaves, dragon eye (longan).</p>"
         }
       ]
     },
@@ -83,28 +141,28 @@
           "distillery": "Blackwater Distillery, Cappoquin, Waterford",
           "abv": "41.5%",
           "url": "http://blackwaterdistillery.ie/our-spirits/gin/",
-          "description": "A classic, London Dry-style gin, with a recipe based on the import catalogue of White's of Waterford in the 19th Century. It includes juniper, coriander, cinnamon, liquorice and nutmeg."
+          "description": "<p>A classic, London Dry-style gin, with a recipe based on the import catalogue of White's of Waterford in the 19th Century. It includes juniper, coriander, cinnamon, liquorice and nutmeg.</p>"
         },
         {
           "title": "Blackwater Strawberry Gin",
           "distillery": "Blackwater Distillery, Cappoquin, Waterford",
           "abv": "40%",
           "url": "http://blackwaterdistillery.ie/wexford-strawberry-gin/",
-          "description": "Wexford strawberries have been macerated in alcohol and distilled along with the rest of the botanicals. After distillation, blackcurrants and more strawberries are added to produce a wonderful nose and colour."
+          "description": "<p>Wexford strawberries have been macerated in alcohol and distilled along with the rest of the botanicals. After distillation, blackcurrants and more strawberries are added to produce a wonderful nose and colour.</p>"
         },
         {
           "title": "Blackwater Juniper Cask Gin",
           "distillery": "Blackwater Distillery, Cappoquin, Waterford",
           "abv": "46%",
           "url": "http://blackwaterdistillery.ie/jenifer-juniper-la-la-la-la-la/",
-          "description": "A gin rested in casks that Blackwater had specially made from juniper wood."
+          "description": "<p>A gin rested in casks that Blackwater had specially made from juniper wood.</p>"
         },
         {
           "title": "Boyle's Gin",
           "distillery": "Blackwater Distillery, Cappoquin, Waterford",
           "url": "http://blackwaterdistillery.ie/",
           "abv": "40%",
-          "description": "A preview of Blackwater's latest gin before it hits the shelves. Named for local boy and father of modern chemistry, Robert Boyle, this gin is softer, fruitier and sweeter than No.5. Botanicals include apple, rosehip, blackcurrant and pink peppercorns."
+          "description": "<p>A preview of Blackwater's latest gin before it hits the shelves. Named for local boy and father of modern chemistry, Robert Boyle, this gin is softer, fruitier and sweeter than No.5. Botanicals include apple, rosehip, blackcurrant and pink peppercorns.</p>"
         }
       ]
     },
@@ -129,12 +187,12 @@
           "distillery": "Cooley Distillery, Louth",
           "abv": "65%",
           "url": "http://www.liquidirish.com/2011/11/new-cooley-poitin.html",
-          "description": "A spirit made from a mix of malted and unmalted grain, distilled in copper stills. Similar to the base spirit used to make genever."
+          "description": "<p>A spirit made from a mix of malted and unmalted grain, distilled in copper stills. Similar to the base spirit used to make genever.</p>"
         },
         {
           "title": "Bols Genever",
           "distillery": "Lucas Bols Distillery, Amsterdam",
-          "botanicals": "includes juniper, licorice, hops, angelica",
+          "description": "<p>Botanicals include: juniper, licorice, hops, angelica.</p>",
           "price": "€30",
           "abv": "42%",
           "url": "https://bols.com/products/bolsgenever"
@@ -142,7 +200,7 @@
         {
           "title": "Bobby's Schiedam Dry Gin",
           "distillery": "Herman Jansen Distillery, Schiedam, Netherlands",
-          "botanicals": "juniper, lemongrass, cloves, coriander seed, cubeb pepper, cinnamon, rose hips, fennel seed",
+          "description": "<p>Botanicals: juniper, lemongrass, cloves, coriander seed, cubeb pepper, cinnamon, rose hips, fennel seed.</p>",
           "price": "€45",
           "abv": "42%",
           "url": "http://bobbysdrygin.com/"
@@ -150,7 +208,7 @@
         {
           "title": "Zuidam Dutch Courage",
           "distillery": "Zuidam Distillers, Baarle-Nassau, Netherlands",
-          "botanicals": "juniper berries and iris root from Italy, coriander from Morocco, angelica, sweet oranges and fresh whole lemons from Spain, liquorice root from India, cardamom and whole vanilla beans from Madagascar",
+          "description": "<p>Botanicals: juniper berries and iris root from Italy, coriander from Morocco, angelica, sweet oranges and fresh whole lemons from Spain, liquorice root from India, cardamom and whole vanilla beans from Madagascar.</p>",
           "price": "€37",
           "abv": "44.5%",
           "url": "http://gin.zuidam.eu/en/products/dutch-courage-dry-gin-en.htm"
@@ -158,7 +216,7 @@
         {
           "title": "Zuidam Dutch Courage Aged Gin",
           "distillery": "Zuidam Distillers, Baarle-Nassau, Netherlands",
-          "botanicals": "juniper berries and iris root from Italy, coriander from Morocco, angelica, sweet oranges and fresh whole lemons from Spain, liquorice root from India, cardamom and whole vanilla beans from Madagascar.",
+          "description": "<p>Botanicals: juniper berries and iris root from Italy, coriander from Morocco, angelica, sweet oranges and fresh whole lemons from Spain, liquorice root from India, cardamom and whole vanilla beans from Madagascar.</p>",
           "price": "€46",
           "abv": "44%",
           "url": "http://gin.zuidam.eu/en/products/dutch-courage-aged-gin-88-en.htm"
@@ -184,7 +242,7 @@
         {
           "title": "Death's Door Gin",
           "distillery": "Death's Door Distillery, Middleton, Wisconsin, USA",
-          "botanicals": "juniper, coriander seed, fennel seed",
+          "description": "<p>Botanicals: juniper, coriander seed, fennel seed.</p>",
           "price": "€64.99",
           "abv": "47%",
           "url": "https://www.deathsdoorspirits.com/spirits/gin"
@@ -192,7 +250,7 @@
         {
           "title": "Cold River Gin",
           "distillery": "Maine Distilleries, Freeport (just outside Portland), Maine, USA",
-          "botanicals": "juniper, coriander seed, lemon & orange peel, cardamom, angelica root, orris root",
+          "description": "<p>Botanicals: juniper, coriander seed, lemon & orange peel, cardamom, angelica root, orris root.</p>",
           "price": "€57.99",
           "abv": "47%",
           "url": "http://www.coldrivervodka.com/gin/"
@@ -200,7 +258,7 @@
         {
           "title": "Aviation Gin",
           "distillery": "House Spirits Distillery, Portland, Oregon, USA",
-          "botanicals": "juniper, coriander seed, cardamom, lavender, sarsaparilla, anise seed, bitter & sweet orange peel",
+          "description": "<p>Botanicals: juniper, coriander seed, cardamom, lavender, sarsaparilla, anise seed, bitter & sweet orange peel.</p>",
           "price": "€53.99",
           "abv": "42%",
           "url": "http://aviationgin.com/"
@@ -208,7 +266,7 @@
         {
           "title": "FEW American Gin",
           "distillery": "FEW Spirits, Evanston, Illinois, USA",
-          "botanicals": "11 botanicals, including juniper, citrus lemon & orange peel, Tahitian vanilla, cassia, grains of paradise, home-growm hops",
+          "description": "<p>11 botanicals, including juniper, citrus lemon & orange peel, Tahitian vanilla, cassia, grains of paradise, home-grown hops.</p>",
           "price": "€64.99",
           "abv": "40%",
           "url": "http://www.fewspirits.com/spirits/american-gin/"
