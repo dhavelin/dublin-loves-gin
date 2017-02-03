@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { EventListComponent } from './eventList.component';
+import { EventAdminListComponent } from './event-admin-list.component';
 
-describe('EventListComponent', () => {
-  let component: EventListComponent;
-  let fixture: ComponentFixture<EventListComponent>;
+describe('EventAdminListComponent', () => {
+  let component: EventAdminListComponent;
+  let fixture: ComponentFixture<EventAdminListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EventListComponent ]
+      declarations: [ EventAdminListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventListComponent);
+    fixture = TestBed.createComponent(EventAdminListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

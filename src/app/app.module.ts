@@ -5,13 +5,14 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { MaterialModule, MdIconModule, MdIconRegistry } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { AngularFireModule } from 'angularfire2';
 
-import { AppComponent } from './app.component';
-import { EventListComponent } from './eventList/eventList.component';
-import { EventsService } from './events.service';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { EventComponent } from './event/event.component';
+import { AppComponent } from './app.component';
+import { EventComponent } from './events/event-view/event-view.component';
+import { EventListComponent } from './events/event-list/event-list.component';
+import { EventAdminListComponent } from './events/event-admin-list/event-admin-list.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const ROUTES = [
@@ -39,16 +40,29 @@ const ROUTES = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'admin/events',
+    component: EventAdminListComponent
   }
 ];
 
+export const firebaseConfig = {
+  apiKey: "AIzaSyCvu7FW5CGEP9EIEPopZfMq8wfejT4cYnI",
+  authDomain: "dublinlovesgin.firebaseapp.com",
+  databaseURL: "https://dublinlovesgin.firebaseio.com",
+  storageBucket: "dublinlovesgin.appspot.com",
+  messagingSenderId: "307428306218"
+};
+
 @NgModule({
   declarations: [
-    AppComponent,
-    EventListComponent,
     AboutComponent,
+    AppComponent,
     ContactComponent,
     EventComponent,
+    EventAdminListComponent,
+    EventListComponent,
     NewsletterComponent
   ],
   imports: [
@@ -57,9 +71,10 @@ const ROUTES = [
     HttpModule,
     RouterModule.forRoot(ROUTES),
     MaterialModule.forRoot(),
-    FlexLayoutModule.forRoot()
+    FlexLayoutModule.forRoot(),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [EventsService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -2,29 +2,38 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Meta } from '@angular/platform-browser'
 import 'rxjs/add/operator/switchMap';
-import { EventsService, Event } from '../events.service';
+import "rxjs/add/operator/take";
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { Observable } from "rxjs";
+import { Event } from '../event.model';
 
 @Component({
   selector: 'app-event',
-  templateUrl: './event.component.html',
-  styleUrls: ['./event.component.css']
+  templateUrl: './event-view.component.html',
+  styleUrls: ['./event-view.component.css']
 })
 export class EventComponent implements OnInit {
 
   event: Event;
 
   constructor(
+    private af: AngularFire,
     private route: ActivatedRoute,
     private router: Router,
-    private metaService: Meta,
-    private eventsService: EventsService
-  ) { }
+    private metaService: Meta
+  ) {}
 
   ngOnInit() {
+
     this.route.params
-      .switchMap((params: Params) => this.eventsService.getEvent(params['eventId']))
-      .subscribe((event: Event) => {
-        this.event = event;
+      .switchMap((params: Params) => this.af.database.list('/events', {
+        query: {
+          orderByChild: 'id',
+          equalTo: params['eventId']
+        }
+      }))
+      .subscribe((events: Event[]) => {
+        this.event = events[0];
 
         this.metaService.removeTag('name="og:title"');
         this.metaService.removeTag('name="og:image"');
@@ -32,25 +41,25 @@ export class EventComponent implements OnInit {
         this.metaService.removeTag('name="og:description"');
         this.metaService.addTag({
           name: 'og:title',
-          content: event.title
+          content: this.event.title
         });
         this.metaService.addTag({
           name: 'og:image',
-          content: 'http://dublinlovesgin.com/assets/images/' + event.image
+          content: 'http://dublinlovesgin.com/assets/images/' + this.event.image
         });
         this.metaService.addTag({
           name: 'og:url',
-          content: 'http://dublinlovesgin.com/events/' + event.id
+          content: 'http://dublinlovesgin.com/events/' + this.event.id
         });
         this.metaService.addTag({
           name: 'og:description',
           content: 'Please join us to sample some delicious gins on '
-                   + event.start.dayOfWeek + ', '
-                   + event.start.day + ' ' + event.start.month + ', ' + event.start.year + ' at '
-                   + event.location
+                   + this.event.start.dayOfWeek + ', '
+                   + this.event.start.day + ' ' + this.event.start.month + ', ' + this.event.start.year + ' at '
+                   + this.event.location
         });
+      })
 
-      });
   }
 
 }

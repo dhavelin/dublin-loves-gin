@@ -1,12 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta } from '@angular/platform-browser'
-import { EventsService } from '../events.service';
+import { Meta } from '@angular/platform-browser';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
+import { Observable } from "rxjs";
+import "rxjs/add/operator/take";
 import * as _ from 'lodash';
+
+import { Event } from '../event.model';
 
 @Component({
   selector: 'dh-events',
-  templateUrl: './eventList.component.html',
-  styleUrls: ['./eventList.component.css']
+  templateUrl: './event-list.component.html',
+  styleUrls: ['./event-list.component.css']
 })
 export class EventListComponent implements OnInit {
 
@@ -20,18 +24,21 @@ export class EventListComponent implements OnInit {
     upcoming: {}
   };
 
+  items: Observable<any[]>;
+
   constructor(
-    private eventsService: EventsService,
+    private af: AngularFire,
     private metaService: Meta
   ) {}
 
   ngOnInit() {
-    this.eventsService.getAllEvents().subscribe(events => {
-      let today = events.today;
-      this.events.previous = _.groupBy(_.filter(events.events, (event: any) => {
+
+    this.af.database.list('/events').take(1).subscribe((events: Event[]) => {
+      let today = new Date().toJSON().slice(0, 10);
+      this.events.previous = _.groupBy(_.filter(events, (event: Event) => {
         return event.start.date < today;
       }), 'start.year');
-      this.events.upcoming = _.groupBy(_.filter(events.events, (event: any) => {
+      this.events.upcoming = _.groupBy(_.filter(events, (event: Event) => {
         return event.start.date >= today;
       }), 'start.year');
       this.years.previous = _.orderBy(_.keys(this.events.previous), [], 'desc');
@@ -54,6 +61,7 @@ export class EventListComponent implements OnInit {
         content: 'Dublin Loves Gin events, upcoming and previous'
       });
     });
+
   }
 
 }

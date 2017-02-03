@@ -1,0 +1,16 @@
+md-card {
+  max-width: 600px;
+  margin: 0 auto 24px auto
+}
+md-card-content {
+}
+md-card-content td {
+}
+th {
+  text-align: left;
+}
+button[md-button],
+a[md-button] {
+  min-width: 0;
+  padding: 0 4px;
+}
