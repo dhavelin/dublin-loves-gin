@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { EventComponent } from './events/event-view/event-view.component';
 import { EventListComponent } from './events/event-list/event-list.component';
 import { EventAdminListComponent } from './events/event-admin-list/event-admin-list.component';
+import { EventAdminEditComponent } from './events/event-admin-edit/event-admin-edit.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const ROUTES = [
@@ -44,6 +45,10 @@ const ROUTES = [
   {
     path: 'admin/events',
     component: EventAdminListComponent
+  },
+  {
+    path: 'admin/events/:eventId',
+    component: EventAdminEditComponent
   }
 ];
 
@@ -62,6 +67,7 @@ export const firebaseConfig = {
     ContactComponent,
     EventComponent,
     EventAdminListComponent,
+    EventAdminEditComponent,
     EventListComponent,
     NewsletterComponent
   ],
