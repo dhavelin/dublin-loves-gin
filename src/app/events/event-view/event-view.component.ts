@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
-import { Meta } from '@angular/platform-browser'
+import { Meta } from '@angular/platform-browser';
 import 'rxjs/add/operator/switchMap';
-import "rxjs/add/operator/take";
+import 'rxjs/add/operator/take';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
-import { Observable } from "rxjs";
+import { Observable } from 'rxjs';
 import { Event } from '../event.model';
 
 @Component({
-  selector: 'app-event',
   templateUrl: './event-view.component.html',
   styleUrls: ['./event-view.component.css']
 })
@@ -58,7 +57,7 @@ export class EventComponent implements OnInit {
                    + this.event.start.day + ' ' + this.event.start.month + ', ' + this.event.start.year + ' at '
                    + this.event.location
         });
-      })
+      });
 
   }
 

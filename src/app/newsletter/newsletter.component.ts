@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta } from '@angular/platform-browser'
+import { Meta } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-newsletter',
   templateUrl: './newsletter.component.html',
   styleUrls: ['./newsletter.component.css']
 })

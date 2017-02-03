@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta } from '@angular/platform-browser'
+import { Meta } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-about',
+  selector: 'dlg-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css']
 })

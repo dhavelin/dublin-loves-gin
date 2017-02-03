@@ -48,11 +48,11 @@ const ROUTES = [
 ];
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCvu7FW5CGEP9EIEPopZfMq8wfejT4cYnI",
-  authDomain: "dublinlovesgin.firebaseapp.com",
-  databaseURL: "https://dublinlovesgin.firebaseio.com",
-  storageBucket: "dublinlovesgin.appspot.com",
-  messagingSenderId: "307428306218"
+  apiKey: 'AIzaSyCvu7FW5CGEP9EIEPopZfMq8wfejT4cYnI',
+  authDomain: 'dublinlovesgin.firebaseapp.com',
+  databaseURL: 'https://dublinlovesgin.firebaseio.com',
+  storageBucket: 'dublinlovesgin.appspot.com',
+  messagingSenderId: '307428306218'
 };
 
 @NgModule({

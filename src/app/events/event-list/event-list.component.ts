@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
-import { Observable } from "rxjs";
-import "rxjs/add/operator/take";
+import { Observable } from 'rxjs';
+import 'rxjs/add/operator/take';
 import * as _ from 'lodash';
 
 import { Event } from '../event.model';
 
 @Component({
-  selector: 'dh-events',
   templateUrl: './event-list.component.html',
   styleUrls: ['./event-list.component.css']
 })

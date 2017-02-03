@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
-import { Observable } from "rxjs";
-import "rxjs/add/operator/take";
+import { Observable } from 'rxjs';
+import 'rxjs/add/operator/take';
 import * as _ from 'lodash';
 
 import { Event } from '../event.model';

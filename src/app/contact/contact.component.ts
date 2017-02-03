@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Meta } from '@angular/platform-browser'
-
+import { Meta } from '@angular/platform-browser';
 @Component({
-  selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
