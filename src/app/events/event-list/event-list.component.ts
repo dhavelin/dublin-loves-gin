@@ -32,14 +32,18 @@ export class EventListComponent implements OnInit {
 
   ngOnInit() {
 
-    this.af.database.list('/events').take(1).subscribe((events: Event[]) => {
+    this.af.database.list('/events', {
+      query: {
+        orderByChild: 'id'
+      }
+    }).take(1).subscribe((events: Event[]) => {
       let today = new Date().toJSON().slice(0, 10);
-      this.events.previous = _.groupBy(_.filter(events, (event: Event) => {
+      this.events.previous = _.groupBy(_.orderBy(_.filter(events, (event: Event) => {
         return event.start.date < today;
-      }), 'start.year');
-      this.events.upcoming = _.groupBy(_.filter(events, (event: Event) => {
+      }), ['start.date'], ['desc']), 'start.year');
+      this.events.upcoming = _.groupBy(_.orderBy(_.filter(events, (event: Event) => {
         return event.start.date >= today;
-      }), 'start.year');
+      }), ['start.date'], ['asc']), 'start.year');
       this.years.previous = _.orderBy(_.keys(this.events.previous), [], 'desc');
       this.years.upcoming = _.keys(this.events.upcoming);
 

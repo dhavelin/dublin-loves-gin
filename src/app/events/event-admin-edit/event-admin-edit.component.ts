@@ -18,15 +18,6 @@ export class EventAdminEditComponent implements OnInit {
   samples: FormArray;
   event: Event;
 
-  "start": {
-    "date": "2016-11-16",
-    "time": "19:00",
-    "dayOfWeek": "Wednesday",
-    "day": "16",
-    "month": "November",
-    "year": "2016"
-  }
-
   formatMonth(index: number): string {
     const monthNames = [
       'January',
@@ -69,6 +60,7 @@ export class EventAdminEditComponent implements OnInit {
     private fb: FormBuilder
   ) {
     this.form = this.fb.group({
+      id: '',
       title: ['', Validators.required],
       location: ['', Validators.required],
       start: this.fb.group({
@@ -97,29 +89,51 @@ export class EventAdminEditComponent implements OnInit {
       this.form.get('start').get('day').setValue(this.formatDay(d.getDate()));
       this.form.get('start').get('month').setValue(this.formatMonth(d.getMonth()));
       this.form.get('start').get('dayOfWeek').setValue(this.formatDayOfWeek(d.getDay()));
+      this.form.get('id').setValue(newDate);
     });
 
  }
 
   ngOnInit() {
+    const eventId = this.route.snapshot.params['eventId'];
     this.subcribeToDateChanges();
-    this.route.params
-      .switchMap((params: Params) => this.af.database.list('/events', {
-        query: {
-          orderByChild: 'id',
-          equalTo: params['eventId']
-        }
-      }))
-      .subscribe((events: Event[]) => {
-        this.event = events[0];
-        this.form.patchValue(_.omit(this.event, ['samples']));
-        this.event.samples.forEach(sample => {
-          this.addSample(sample);
-        });
+    if (eventId === 'new') {
+      this.event = new Event({
+        id: '',
+        title: '',
+        location: '',
+        image: '',
+        start: {
+          date: '',
+          time: '',
+          dayOfWeek: '',
+          day: '',
+          month: '',
+          year: ''
+        },
+        tickets: '',
+        description: '',
+        samples: []
       });
+      this.updateForm();
+    } else {
+      this.af.database.object(`/events/${eventId}`).subscribe((event: Event) => {
+        this.event = event;
+        this.updateForm();
+      })
+    }
+  }
+
+  updateForm() {
+    this.form.patchValue(_.omit(this.event, ['samples']));
+    this.event.samples.forEach(sample => {
+      this.addSample(sample);
+    });
   }
 
   onSubmit() {
+    const target = this.af.database.object(`/events/${this.form.get('id').value}`);
+    target.set(this.form.value);
     console.log('SUBMIT');
     console.log(this.form.value);
   }

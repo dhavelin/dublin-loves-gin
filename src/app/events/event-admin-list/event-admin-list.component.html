@@ -28,6 +28,9 @@
       </tbody>
     </table>
   </md-card-content>
+  <md-card-actions align="end">
+    <a md-mini-fab color="accent" [routerLink]="['/admin/events/new']"><md-icon fontIcon="fa-plus"></md-icon></a>
+  </md-card-actions>
 </md-card>
 
 <md-card *ngIf="events.previous">

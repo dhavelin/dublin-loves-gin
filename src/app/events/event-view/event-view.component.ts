@@ -25,14 +25,9 @@ export class EventComponent implements OnInit {
   ngOnInit() {
 
     this.route.params
-      .switchMap((params: Params) => this.af.database.list('/events', {
-        query: {
-          orderByChild: 'id',
-          equalTo: params['eventId']
-        }
-      }))
-      .subscribe((events: Event[]) => {
-        this.event = events[0];
+      .switchMap((params: Params) => this.af.database.object(`/events/${params['eventId']}`))
+      .subscribe((event: Event) => {
+        this.event = event;
 
         this.metaService.removeTag('name="og:title"');
         this.metaService.removeTag('name="og:image"');
