@@ -1,52 +1,72 @@
 <h1>Event</h1>
-<md-card *ngIf="event">
-  <md-card-content>
+<form novalidate (ngSubmit)="onSubmit()" [formGroup]="form">
+  <md-card *ngIf="event">
+    <md-card-content>
 
-    <form>
+        <md-input-container class="full-width">
+          <input md-input formControlName="title" placeholder="Title">
+        </md-input-container>
 
-      <md-input-container class="full-width">
-        <input md-input placeholder="Title" value="Google">
-      </md-input-container>
+        <md-input-container class="full-width">
+          <input md-input formControlName="location" placeholder="Location">
+        </md-input-container>
 
-      <md-input-container class="full-width">
-        <input md-input placeholder="Location" value="Google">
-      </md-input-container>
+        <div formGroupName="start">
+          <md-input-container>
+            <input md-input formControlName="date" type="date" placeholder="Start Date">
+          </md-input-container>
 
-      <md-input-container>
-        <input md-input type="date" placeholder="Start Date" value="">
-      </md-input-container>
+          <md-input-container>
+            <input md-input formControlName="time" type="time" placeholder="Start Time">
+          </md-input-container>
+        </div>
 
-      <md-input-container>
-        <input md-input type="time" placeholder="Start Time" value="">
-      </md-input-container>
+        <md-input-container class="full-width">
+          <input md-input formControlName="tickets" placeholder="Tickets">
+        </md-input-container>
 
-      <md-input-container class="full-width">
-        <input md-input placeholder="Tickets" value="Google">
-      </md-input-container>
+        <md-input-container class="full-width">
+          <input md-input formControlName="image" placeholder="Image">
+        </md-input-container>
 
-      <md-input-container class="full-width">
-        <input md-input placeholder="Image" value="">
-      </md-input-container>
+        <md-input-container class="full-width">
+          <textarea md-input formControlName="description" placeholder="Description" rows="10"></textarea>
+        </md-input-container>
 
-      <md-input-container class="full-width">
-        <textarea md-input placeholder="Description"></textarea>
-      </md-input-container>
+        <div formArrayName="samples">
+          <div *ngFor="let sample of samples.controls; let i=index" [formGroupName]="i" class="sample">
+            <p>Sample</p>
+            <md-input-container class="full-width">
+              <input md-input formControlName="title" placeholder="Title">
+            </md-input-container>
+            <md-input-container class="full-width">
+              <input md-input formControlName="distillery" placeholder="Distillery">
+            </md-input-container>
+            <md-input-container class="full-width">
+              <input md-input formControlName="abv" placeholder="ABV">
+            </md-input-container>
+            <md-input-container class="full-width">
+              <input md-input formControlName="url" placeholder="URL">
+            </md-input-container>
+            <md-input-container class="full-width">
+              <textarea md-input formControlName="description" placeholder="Description" rows="5"></textarea>
+            </md-input-container>
+          </div>
+          <button md-mini-fab color="accent" (click)="addNewSample()"><md-icon fontIcon="fa-plus"></md-icon></button>
+        </div>
 
-    </form>
-    <!--
-    event.title
-    event.location
-    event.start.time
-    event.start.dayOfWeek
-    event.start.day
-    event.start.month
+    </md-card-content>
+    <md-card-actions align="end">
+      <button md-button type="submit">SAVE</button>
+      <a md-button [routerLink]="['/admin/events']">CANCEL</a>
+    </md-card-actions>
+  </md-card>
 
-    event.tickets
-    event.image
-    event.description
-    -->
-  </md-card-content>
-  <md-card-actions>
-    <a md-button [routerLink]="['/admin/events']">Cancel</a>
-  </md-card-actions>
+</form>
+
+<md-card>
+  <p>Form: {{ form.value | json }}</p>
+  <p>Form status: {{ form.status }}</p>
+  <p>Errors: {{ form.errors | json }}</p>
+  <p>{{ form.get('start').errors | json }}</p>
 </md-card>

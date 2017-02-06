@@ -5,3 +5,12 @@ md-card {
 .full-width {
   width: 100%;
 }
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border-right: 5px solid red; /* red */
+}
+.sample {
+  border: 1px solid #333;
+  padding: 12px;
+  margin-bottom: 12px;
+}
