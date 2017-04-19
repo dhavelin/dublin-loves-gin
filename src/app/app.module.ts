@@ -76,8 +76,8 @@ export const firebaseConfig = {
     ReactiveFormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES),
-    MaterialModule.forRoot(),
-    FlexLayoutModule.forRoot(),
+    MaterialModule,
+    FlexLayoutModule,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
